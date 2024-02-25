@@ -7,45 +7,52 @@
     <meta name="description" content="Estructura basica de un sitio web. Blog.">
     <meta name="author" content="Martin Gerardo Tanori Sitten">
     <title>Blog</title>
-    <link rel="stylesheet" href="/styles/style.css" >
-    <link rel="icon" href="/images/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="stylesheet" href="styles/style.css" >
+    <link rel="icon" href="images/favicon.ico" type="image/ico" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
   </head>
   <body>
     <header>
         <nav>
           <h1>Blog propio</h1>
-          <ul>
-            <li><a href="landingpage.html">Landing Page</a></li>
-            <li><a href="#">Acerca de...</a></li>
-            <li><a href="#">Mas</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
+          <h2>
+            <ul>
+              <li><a href="landingpage.html">Landing Page</a></li>
+              <li><a href="#">Acerca de...</a></li>
+              <li><a href="#">Mas</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </h2>
         </nav>
     </header>
     <main>
+      <div>
+        <article>
+          <img src="images/minecraft-features.jpg" class="imageArticle"></a>
+          <h2>Articulo 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus auctor</p>
+        </article>
+        <article>
+          <img src="images/epic lol.jpg" class="imageArticle"></a>
+          <h2>Articulo 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus auctor</p>
+        </article>
+      </div>
       <article>
-        <img src="./images/minecraft-features.jpg"></a>
-        <h2>Articulo 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus auctor</p>
+        <aside>
+          <h2>Relacionado</h2>
+          <ul class="aside">
+            <li><a href="#"><img src="images/pajaro.png" class="imageSmall"></a></li>
+            <li><a href="#"><img src="images/pajaro.png" class="imageSmall"></a></li>
+            <li><a href="#"><img src="images/pajaro.png" class="imageSmall"></a></li>
+            <li><a href="#"><img src="images/pajaro.png" class="imageSmall"></a></li>
+          </ul>
+          <h2></br>Publicidad</h2>
+          <a href="#"><img src="images/power rangers.jpg" class="imageArticle"></a></li>
+        </aside>
       </article>
-      <article>
-        <img src="./images/epic lol.jpg"></a>
-        <h2>Articulo 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus auctor</p>
-      </article>
-      <aside>
-        <h2>Lorem ipsum</h2>
-        <ul>
-          <li><a href="#"><img src="./images/pajaro.png"></a></li>
-          <li><a href="#"><img src="./images/pajaro.png"></a></li>
-          <li><a href="#"><img src="./images/pajaro.png"></a></li>
-          <li><a href="#"><img src="./images/pajaro.png"></a></li>
-        </ul>
-        <a href="#"><img src="./images/power rangers.jpg"></a></li>
-      </aside>
-
     </main>
+    
     <footer>
       <p>Este blog es un ejemplo de un sitio web ficticio. Martin Gerardo Tanori Sitten, 2024.</p>
     </footer>
